@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malla de Samantha</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="img/Captura_de_pantalla_2025-07-29_112830-removebg-preview.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<h2>👑 Malla de la Princesa Samantha 👑</h2>
+
+<div class="grid-malla">
+
+  <div class="semestre">
+    <h3>Semestre 1</h3>
+    <div class="materia" id="AM0027">TÉCNICAS DE INVESTIGACIÓN</div>
+    <div class="materia" id="AM1007">RITMO AUDITIVO I</div>
+    <div class="materia" id="AM1024">TÉCNICA DE LA VOZ</div>
+    <div class="materia" id="EF-">ACTIVIDAD DEPORTIVA</div>
+    <div class="materia" id="EG-I">CURSO INTEGRADO DE HUMANIDADES I</div>
+    <div class="materia" id="FD0548">INTRODUCCIÓN A LA PEDAGOGÍA</div>
+    <div class="materia" id="RP-1">REPERTORIO</div>   
+  </div>
+
+  <div class="semestre">
+    <h3>Semestre 2</h3>
+    <div class="materia bloqueada" id="AM0001" data-requiere="AM1007">COMPUTACIÓN PARA MÚSICOS I</div>
+    <div class="materia bloqueada" id="AM1008" data-requiere="AM1007">RITMO AUDITIVO II</div>
+    <div class="materia bloqueada" id="AM1007" data-requiere="AM1007">FLAUTA DULCE COMPLEMENTARIA</div>
+    <div class="materia bloqueada" id="AM1085" data-requiere="AM1007">CANTO COMPLEMENTARIO I</div>
+    <div class="materia" id="EG-">CURSO DE ARTE</div>
+    <div class="materia bloqueada" id="EG-II" data-requiere="EG-I">CURSO INTEGRADO DE HUMANIDADES II</div>
+    <div class="materia" id="OE1103">DESARROLLO Y APRENDIZAJE EN LA ADOLESCENC</div>
+
+  </div>
+    <div class="semestre">
+    <h3>Semestre 3</h3>
+    <div class="materia bloqueada" id="AM0115" data-requiere="AM1008" >FUNDAMENTOS DE LA ENSEÑANZA DE LA PERCUS</div>
+    <div class="materia bloqueada" id="AM0113" data-requiere="AM1008" >FUNDAMENTOS Y PRINCIPIOS DE EDUCACIÓN MUS</div>
+    <div class="materia" id="AM0116">FUNDAMENTOS TEÓRICO-MUSICALES I</div>
+    <div class="materia" id="AM1003">PRÁCTICA CORAL I</div>
+    <div class="materia bloqueada" id="AM1020" data-requiere="AM1008">GUITARRA COMPLEMENTARIA I</div>
+    <div class="materia bloqueada" id="AM1186" data-requiere="AM1085">CANTO COMPLEMENTARIO II </div>
+    <div class="materia bloqueada" id="FD0152" data-requiere="FD0548">FUNDAMENTOS DE DIDÁCTICA</div>
+    <div class="materia bloqueada" id="FD5051" data-requiere="FD0548">PRINCIPIOS DE CURRÍCULUM</div>
+    </div>
+
+    <div class="semestre">
+    <h3>Semestre 4</h3>
+    <div class="materia bloqueada" id="AM0105" data-requiere="AM0115">TÉCNICA DE INSTRUMENTOS (PERCUSIÓN)</div>
+    <div class="materia bloqueada" id="AM0114" data-requiere="AM0116">ENFOQUES TRADICIONALES DE LA EDUCACIÓN MU</div>
+    <div class="materia bloqueada" id="AM0117" data-requiere="AM0116">FUNDAMENTOS TEÓRICO-MUSICALES II</div>
+    <div class="materia bloqueada" id="AM1004" data-requiere="AM1003">PRÁCTICA CORAL II</div>
+    <div class="materia bloqueada" id="AM1021" data-requiere="AM1020">GUITARRA COMPLEMENTARIA II</div>
+    <div class="materia" id="AM1041">PIANO COMPLEMENTARIO I</div>
+    <div class="materia bloqueada" id="EA0350" data-requiere="FD5051,FD0152">TALLER DE MATERIALES DIDÁCTICOS Y MEDIOS A</div>
+    <div class="materia bloqueada" id="OE0342" data-requiere="FD5051 , FD0152">PRINCIPIOS DE EVALUACIÓN Y MEDICIÓN EDUCAT</div>
+    </div>
+
+    <div class="semestre"> 
+    <h3>Semestre 5</h3>
+    <div class="materia bloqueada" id="AM1093" data-requiere="AM0117">ARMONÍA I</div>
+    <div class="materia bloqueada" id="AM1142" data-requiere="AM1041">PIANO COMPLEMENTARIO II </div>
+    <div class="materia bloqueada" id="AM2103" data-requiere="AM1004">PRÁCTICA CORAL III</div>
+    <div class="materia" id="AM2109">HISTORIA DE LA MÚSICA I</div>
+    <div class="materia bloqueada" id="AM2195" data-requiere="AM0117">ANÁLISIS I</div>
+    <div class="materia bloqueada" id="AM3170" data-requiere="AM0117,AM1186">CONJUNTO Y DIRECCIÓN CORAL I</div>
+    <div class="materia bloqueada" id="AM3197" data-requiere="AM0117">CONTRAPUNTO I</div>
+    <div class="materia bloqueada" id="FD0532" data-requiere="EA0350,OE0342">METODOLOGÍA DE LA ENSEÑANZA DE LA MÚSICA</div>
+    </div>
+
+    <div class="semestre">
+    <h3>Semestre 6</h3>
+    <div class="materia bloqueada" id="AM2104" data-requiere="AM2103">PRÁCTICA CORAL IV</div>
+    <div class="materia bloqueada" id="AM2110" data-requiere="AM2109">HISTORIA DE LA MÚSICA II</div>
+    <div class="materia bloqueada" id="AM2141" data-requiere="AM1142">PIANO COMPLEMENTARIO III</div>
+    <div class="materia bloqueada" id="AM3171" data-requiere="AM3170">CONJUNTO Y DIRECCIÓN CORAL II</div>
+    <div class="materia bloqueada" id="FD0542" data-requiere="FD0532">EXPERIENCIA DOCENTE EN MÚSICA</div>
+    <div class="materia bloqueada" id="SR-I" data-requiere="EG-II">SEMINARIO DE REALIDAD NACIONAL I </div>
+    </div>
+
+    <div class="semestre">
+    <h3>Semestre 7</h3>
+    <div class="materia bloqueada" id="AM1017" data-requiere="AM1093,AM2195,AM3197">INSTRUMENTACIÓN Y COMPOSICIÓN I</div>
+    <div class="materia bloqueada" id="AM2142" data-requiere="AM2141
+">PIANO COMPLEMENTARIO IV</div>
+    <div class="materia bloqueada" id="AM3109" data-requiere="AM2110">HISTORIA DE LA MÚSICA III</div>
+    <div class="materia bloqueada" id="FD0545" data-requiere="FD0542">INVESTIGACIÓN PARA EL MEJORAMIENTO DEL APR</div>
+    <div class="materia bloqueada" id="FD0556" data-requiere="FD0542">SEMINARIO DE ENSEÑANZA DE LA MÚSICA</div>
+    <div class="materia" id="OPT941">CURSOS OPTATIVOS GENERALES</div>
+    <div class="materia bloqueada" id="SR-II" data-requiere="SR-I">SEMINARIO DE REALIDAD NACIONAL II </div>
+    </div>
+
+    <div class="semestre">
+    <h3>Semestre 8</h3>
+    <div class="materia bloqueada" id="AM0003" data-requiere="AM0027">INTRODUCCIÓN A ETNOMUSICOLO-GÍA</div>
+    <div class="materia bloqueada" id="AM0119" data-requiere="AM3109">HISTORIA DE LA MÚSICA EN AMÉRICA LATINA</div>
+    <div class="materia bloqueada" id="AM1019" data-requiere="AM3170">DIRECCIÓN DE CONJUNTOS INSTRUMENTALES I</div>
+    <div class="materia bloqueada" id="AM1023" data-requiere="AM1017">INSTRUMENTACIÓN Y COMPOSICIÓN II</div>
+    <div class="materia bloqueada" id="AM3110" data-requiere="AM3109">HISTORIA DE LA MÚSICA IV</div>
+    <div class="materia bloqueada" id="FD0544" data-requiere="FD0542 ">TEORÍA DE LA EDUCACIÓN</div>
+    <div class="materia bloqueada" id="OE1012" data-requiere="FD0542 ">PSICOPEDAGOGÍA DEL ADOLESCENTE</div>
+    </div>
+
+    <div class="semestre">
+    <h3>Semestre 9</h3>
+    <div class="materia bloqueada" id="AM0009" data-requiere="AM1008">RITMO AUDITIVO III</div>
+    <div class="materia bloqueada" id="AM0009" data-requiere="AM1019">DIRECCIÓN DE CONJUNTOS INSTRUMENTALES II</div>
+    <div class="materia bloqueada" id="AM0009" data-requiere="AM3171">CONJUNTO Y DIRECCIÓN CORAL III</div>
+    <div class="materia" id="FD5091">MÉTODOS DE INVESTIGACIÓN EDUCATIVA</div>
+    <div class="materia" id="FD8091">PLANEAMIENTO Y DESARROLLO CURRICULAR</div>
+    <div class="materia" id="OPT247">OPTATIVA DE INSTRUMENTO COMPLEMENTARIO</div>
+    <div class="materia" id="OPT940">OPTATIVOS DEL ÁREA DE ARTES MÚSICALES</div>
+    </div>
+
+<script>
+  document.querySelectorAll('.materia').forEach(materia => {
+    materia.addEventListener('click', () => {
+      if (materia.classList.contains('bloqueada')) return;
+
+      materia.classList.toggle('completada');
+
+      // Revalidar todas las materias bloqueadas
+      document.querySelectorAll('.materia.bloqueada').forEach(bloqueada => {
+        const requisitos = bloqueada.dataset.requiere;
+        if (!requisitos) return;
+
+        const lista = requisitos.split(',').map(req => req.trim());
+        const todosCompletados = lista.every(id => {
+          const requerida = document.getElementById(id);
+          return requerida && requerida.classList.contains('completada');
+        });
+
+        if (todosCompletados) {
+          bloqueada.classList.remove('bloqueada');
+          bloqueada.style.pointerEvents = 'auto';
+        }
+      });
+    });
+  });
+
+  // Mensaje motivacional
+  const primeraMateria = document.querySelector('.semestre .materia');
+  let felicitacionMostrada = false;
+
+  if (primeraMateria) {
+    primeraMateria.addEventListener('click', function () {
+      if (!felicitacionMostrada) {
+        const h2 = document.querySelector('h2');
+        const felicidades = document.createElement('div');
+        felicidades.textContent = '✨¡Felicidades Samantha, eres la mejor!✨';
+        felicidades.className = 'felicitacion-verde';
+        h2.insertAdjacentElement('afterend', felicidades);
+        felicitacionMostrada = true;
+      }
+    });
+  }
+</script>
+
+</div>
+<a>Cada semestre aprobado te acerca más a cumplir tus sueño, Samy.✨! Sigue brillando ¡✨</a>
+</body>
+</html>
