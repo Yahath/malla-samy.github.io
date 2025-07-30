@@ -58,6 +58,8 @@ h2 {
 .materia.completada {
   background-color: #f766d9;
   color: white;
+  text-decoration: line-through;
+  transition: background-color 0.3s, color 0.3s, text-decoration 0.3s;
 }
 
 .felicitacion-verde {
